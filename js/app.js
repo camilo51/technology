@@ -54,6 +54,8 @@ function galeriaCarousel() {
 
         const img = document.createElement('IMG');
         img.setAttribute('src', `img/influencers/influencer${i+1}.jpg`)
+        img.setAttribute('alt', `${nombres[i]}`)
+        img.setAttribute('loading', 'lazy')
 
         const p = document.createElement('P');
         let nombre = nombres[i];
@@ -105,7 +107,7 @@ import { evo } from "./evolucion.js";
         contenedor.innerHTML += `
             <div class="about__target">
                 <h3>${entry.titulo}</h3>
-                <img src="${entry.imagen}">
+                <img src="${entry.imagen}" alt="${entry.titulo}" loading="lazy">
                 <p>${entry.texto}</p>
             </div>
         `;
