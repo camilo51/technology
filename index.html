@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.css">
 
-    <link rel="stylesheet" href="css/normalice.css">
-    <link rel="preload" href="css/normalice.css" as="style">
+    <link rel="stylesheet" href="build/css/normalice.min.css">
+    <link rel="preload" href="build/css/normalice.min.css" as="style">
 
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="preload" href="css/estilos.css" as="style">
+    <link rel="stylesheet" href="build/css/estilos.min.css">
+    <link rel="preload" href="build/css/estilos.min.css" as="style">
 
 </head>
 
@@ -127,11 +127,9 @@
 
     </section>
     <section class="video" id="video">
-        <iframe width="936" src="https://www.youtube.com/embed/NEzvnGbfljs" loading="lazy"
-            title="La evolución de la tecnología"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-
+    
+        <video src="img/video.mp4" controls></video>
+        
         <div>
             <h2>Video of the evolution of technology</h2>
             <p>
@@ -164,20 +162,28 @@
     <footer class="footer">
         <ul class="footer__contenedor">
             <li style="--i:#56ccf2; --j: #2fbbed;">
-                <span class="icon"><i class="fa-brands fa-twitter"></i></span>
-                <span class="titulo">Twitter</span>
+                <a target="_blank" href="https://twitter.com/camilo_pereira_">
+                    <span class="icon"><i class="fa-brands fa-twitter"></i></span>
+                    <span class="titulo">Twitter</span>
+                </a>
             </li>
             <li style="--i:#ffa9c6; --j: #f134e2;">
-                <span class="icon"><i class="fa-brands fa-instagram"></i></span>
-                <span class="titulo">Instagram</span>
+                <a target="_blank" href="https://www.instagram.com/camilopereira_51/">
+                    <span class="icon"><i class="fa-brands fa-instagram"></i></span>
+                    <span class="titulo">Instagram</span>
+                </a>
             </li>
             <li style="--i:#80ff72; --j: #5ee3d4;">
-                <span class="icon"><i class="fa-brands fa-linkedin"></i></span>
-                <span class="titulo">Linkedin</span>
+                <a target="_blank" href="https://www.linkedin.com/in/cristianpereira51/">
+                    <span class="icon"><i class="fa-brands fa-linkedin"></i></span>
+                    <span class="titulo">Linkedin</span>
+                </a>
             </li>
             <li style="--i:#a955ff; --j: #ea51ff;">
-                <span class="icon"><i class="fa-brands fa-github"></i></span>
-                <span class="titulo">Github</span>
+                <a target="_blank" href="https://github.com/camilo51">
+                    <span class="icon"><i class="fa-brands fa-github"></i></span>
+                    <span class="titulo">Github</span>
+                </a>
             </li>
         </ul>
         <p>All rights reserved. Cristian Camilo Pereira Florez &copy;</p>
@@ -186,11 +192,11 @@
     <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
-    <script src="js/typed.js"></script>
-    <script src="js/particles.min.js"></script>
-    <script src="js/particles.js"></script>
-    <script src="js/evolucion.js" type="module"></script>
-    <script src="js/app.js" type="module"></script>
+    <script src="build/js/typed.min.js"></script>
+    <script src="build/js/particles-config.min.js"></script>
+    <script src="build/js/particles.min.js"></script>
+    <script src="build/js/evolucion.min.js" type="module"></script>
+    <script src="build/js/app.min.js" type="module"></script>
 </body>
 
 </html>
